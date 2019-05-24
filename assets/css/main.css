@@ -53,9 +53,12 @@
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
+		border-color: green;
 		padding: 0;
 		border: 0;
+		
 		font-size: 100%;
+		font-family: "moonhouse";
 		font: inherit;
 		vertical-align: baseline;
 	}
@@ -1675,7 +1678,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "moonhouse", sans-serif;
+		font-family: "moonhouse";
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1775,7 +1778,7 @@
 	code {
 		border-radius: 2px;
 		border: solid 1px;
-		font-family: "Courier New", monospace;
+		font-family: "moonhouse";
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.65rem;
@@ -1783,7 +1786,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "moonhouse";
 		font-size: 0.9rem;
 		margin: 0 0 2rem 0;
 	}
@@ -2711,7 +2714,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6rem 0 4rem 0 ;
+
 		position: relative;
 		margin: 0;
 	}
