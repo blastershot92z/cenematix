@@ -3772,7 +3772,8 @@
 		left: 0;
 		line-height: 3.25em;
 		position: fixed;
-		text-align: right;
+		text-align: center;
+		
 		top: 0;
 		width: 100%;
 		z-index: 10001;
