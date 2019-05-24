@@ -4,6 +4,15 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @import url("fonts/moonhouse.ttf");
 
+@font-face {
+  font-family: 'moonhouse';
+  src: url('../../fonts/moonhouse.ttf'); /* IE9+ Compat Modes */
+  src: url('../../fonts/moonhouse.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/moonhouse.ttf') format('woff2'), /* Super modern browsers */
+       url('../../fonts/moonhouse.ttf') format('woff'), /* Modern browsers */
+       url('../../fonts/moonhouse.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/moonhouse.ttf') format('svg'); /* Legacy iOS */
+}
 /*
 	Hielo by TEMPLATED
 	templated.co @templatedco
