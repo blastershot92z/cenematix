@@ -20,6 +20,26 @@
 */
 
 /* Reset */
+
+.ad-left {
+  float: left;
+}
+
+.ad-right {
+  float: right;
+  margin-left: 120px;
+}
+
+.entire-thing {
+   text-align: left;
+  width: 800px;
+  margin: 0 auto;
+}
+
+p.clear {
+  clear: both;
+}
+
   .slider {
         width: 80%;
         margin: 100px auto;
@@ -39,7 +59,7 @@
     .slick-next:before {
       color: black;
     }
-
+	
 
     .slick-slide {
       transition: all ease-in-out .3s;
@@ -49,6 +69,18 @@
 		.slick-active:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
+	
+	#stuff2 {
+     width: 800px;
+     margin: 0 auto;	
+	}
+	
+
+#div3 {
+ 
+    float:right;
+}
+	
 	
     .slick-active {
       opacity: 1;
@@ -78,6 +110,7 @@
 
 	body {
 		line-height: 1;
+		text-align: center;
 	}
 
 	ol, ul {
