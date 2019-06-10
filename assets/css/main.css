@@ -21,6 +21,18 @@
 
 /* Reset */
 
+.headeru {
+  display: inline-block; 
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.vid {
+  float: right;
+}
+.pic {
+  float: left;
+}
+
 .ad-left {
   float: left;
 }
