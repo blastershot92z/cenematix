@@ -34,7 +34,23 @@
     .slick-slide img {
       width: 100%;
     }
+
+.itemsContainer {
+    float:left;
+    position:relative
+}
+.itemsContainer:hover .play{display:block}
+.play{
+  position : absolute;
+    display:none;
+    top:20%; 
+    width:60px;
+    margin:0 auto; left:0px;
+    right:0px;
+    z-index:1000;
+	pointer-events: none;
 	
+} 
 
   </style>
 
@@ -83,8 +99,9 @@
 					
 
   <section class="regular slider">
-    <div>
+    <div class="itemsContainer">
       <img src="images/001_projectbaby.jpg" onclick="<a href="#" class="js-video-button" data-channel="video" data-video-url="https://www.youtube.com/embed/j800SVeiS5I"></a>
+	      <div class="play"><img src="http://cdn1.iconfinder.com/data/icons/flavour/button_play_blue.png" /> </div>
 	   <br><h2>PROJECT BABY</h2>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 <input type="hidden" name="cmd" value="_xclick" />
@@ -99,8 +116,9 @@
 <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynow_SM.gif" name="submit" alt="Make payments with PayPal"/>
 </form>
     </div>
-    <div>
+    <div class="itemsContainer">
       <img src="images/003_alphagenesis.jpg" onclick="<a href="#" class="js-video-button" data-channel="video" data-video-url="https://www.youtube.com/embed/j800SVeiS5I"></a>
+	   <div class="play"><img src="http://cdn1.iconfinder.com/data/icons/flavour/button_play_blue.png" /> </div>
 	  <br><h2>ALPHA GENESIS</h2>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 <input type="hidden" name="cmd" value="_xclick" />
@@ -115,8 +133,9 @@
 <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynow_SM.gif" name="submit" alt="Make payments with PayPal"/>
 </form>
     </div>
-    <div>
+    <div class="itemsContainer">
       <img src="images/002_9ine6ix.jpg" onclick="<a href="#" class="js-video-button" data-channel="video" data-video-url="https://www.youtube.com/embed/j800SVeiS5I"></a>
+	  	<div class="play"><img src="http://cdn1.iconfinder.com/data/icons/flavour/button_play_blue.png" /> </div>
 	  <br><h2>9ine6ix</h2>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 <input type="hidden" name="cmd" value="_xclick" />
@@ -131,8 +150,9 @@
 <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynow_SM.gif" name="submit" alt="Make payments with PayPal"/>
 </form>
     </div>
-    <div>
+    <div class="itemsContainer">
       <img src="images/004_outwittingthedevil.jpg" onclick="<a href="#" class="js-video-button" data-channel="video" data-video-url="https://www.youtube.com/embed/j800SVeiS5I"></a>
+	  <div class="play"><img src="http://cdn1.iconfinder.com/data/icons/flavour/button_play_blue.png" /> </div>
 	  <br><h2>DEVIL</h2>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 <input type="hidden" name="cmd" value="_xclick" />
@@ -147,8 +167,9 @@
 <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynow_SM.gif" name="submit" alt="Make payments with PayPal"/>
 </form>
     </div>
-    <div>
+    <div class="itemsContainer">
       <img src="images/005_TheGun.jpg" onclick="<a href="#" class="js-video-button" data-channel="video" data-video-url="https://www.youtube.com/embed/j800SVeiS5I"></a>
+	  <div class="play"><img src="http://cdn1.iconfinder.com/data/icons/flavour/button_play_blue.png" /> </div>
 	  <br><h2>THE GUN</h2>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 <input type="hidden" name="cmd" value="_xclick" />
